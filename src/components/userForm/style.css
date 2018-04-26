@@ -1,0 +1,65 @@
+.form-block {
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 10px 0;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.login-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.login-input {
+  outline: none;
+  width: 50%;
+  margin: 10px auto;
+  background: transparent;
+  padding: 10px 12px;
+  border: 1px solid #999999;
+  border-radius: 3px;
+}
+
+.login-input-group {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 10px 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-input-group_submits {
+  justify-content: center;
+}
+.login-label {
+  margin: 10px auto;
+}
+.login-submit {
+  padding: 10px 20px;
+  margin: 20px 10px 0;
+  color: #454c56;
+  border: 1px solid #454c56;
+  border-radius: 3px;
+  background: transparent;
+  transition: all 0.2s ease-out;
+}
+.login-submit:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.login-title {
+  width: 100%;
+  text-align: center;
+}

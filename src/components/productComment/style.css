@@ -1,0 +1,36 @@
+.comments {
+  width: 100%;
+}
+
+.comment {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background: #f7f7f7;
+  margin: 20px 0;
+}
+
+.comment-header {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media (max-width: 568px) {
+  .comment {
+    width: calc(100% - 20px);
+    margin: auto;
+  }
+
+  .comment-header {
+    flex-flow: column wrap;
+    border-bottom: 1px solid black;
+  }
+}
