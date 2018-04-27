@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import StarRatingComponent from 'react-star-rating-component';
 
 import '../../components/productComment/style.css';
 
@@ -15,7 +16,14 @@ export default class ProductComment extends Component {
         <header className="comment-header">
           <div className="comment-header__left">
             <div className="comment__username">{ user.username }</div>
-            <div className="comment__mark">Rate: { data.rate}</div>
+            <div className="comment__mark">Rate: { data.rate}
+              <StarRatingComponent
+                name="rate1"
+                starCount={5}
+                value={data.rate}
+                emptyStarColor={'#788892'}
+              />
+            </div>
           </div>
           <div className="comment__time">{ date }</div>
         </header>
