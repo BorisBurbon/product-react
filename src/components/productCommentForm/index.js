@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
-
 import '../../components/productCommentForm/style.css';
-
-//import api from '../../api';
 
 export default class ProductCommentForm extends Component {
 
